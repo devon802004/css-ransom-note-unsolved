@@ -302,3 +302,18 @@ body {
 }
 .question-mark {
 }
+
+
+/* You can group the letter selectors by the common styles: */
+
+.hyphen, .exclamation-mark, .question-mark{
+color: hsla(hue, saturation, lightness, alpha);
+}
+
+/* You can also add classes to target a group of HTML elements to apply the same set of styles:
+*/
+
+.yellow-letter{
+  color: rgba(red, green, blue, alpha);
+}
+
